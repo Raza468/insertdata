@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+.registration-form {
+  max-width: 400px; /* Set a max width for the form */
+  margin: auto; /* Center the form horizontally */
+  padding: 20px; /* Add padding around the form */
+  border: 1px solid #ccc; /* Border around the form */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.registration-form h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.registration-form div {
+  margin-bottom: 15px; /* Space between input fields */
+}
+
+.registration-form label {
+  display: block; /* Labels on separate lines */
+  margin-bottom: 5px; /* Space below labels */
+  font-weight: bold; /* Make labels bold */
+}
+
+.registration-form input {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Border for input fields */
+  border-radius: 4px; /* Rounded corners for input fields */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.registration-form button {
+  background-color: #4CAF50; /* Green background for the button */
+  color: white; /* White text */
+  padding: 10px; /* Padding inside button */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  width: 100%; /* Full width for button */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.registration-form button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
